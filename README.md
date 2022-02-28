@@ -97,7 +97,7 @@ You can download it from [GitHub Releases](https://github.com/XEricDev/MXDDoS/re
 
 ```console
 git clone https://github.com/XEricDev/MXDDoS.git
-cd MHDDoS
+cd MXDDoS
 pip3 install -r requirements.txt
 ```
 
