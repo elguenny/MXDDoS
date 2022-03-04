@@ -8,12 +8,12 @@
 <a href="#"><img alt="MXDDoS last commit (main)" src="https://img.shields.io/github/last-commit/MHProDev/MHDDoS/main?color=green&style=for-the-badge"></a>
 <a href="#"><img alt="MXDDoS Repo stars" src="https://img.shields.io/github/stars/XEricDev/MXDDoS?style=for-the-badge&color=yellow"></a>
 <a href="#"><img alt="MXDDoS License" src="https://img.shields.io/github/license/XEricDev/MXDDoS?color=orange&style=for-the-badge"></a>
-<a href="https://github.com/XEricDev/MXDDoS/issues"><img alt="MHDDoS issues" src="https://img.shields.io/github/issues/XEricDev/MXDDoS?color=purple&style=for-the-badge"></a>
+<a href="https://github.com/XEricDev/MXDDoS/issues"><img alt="MXDDoS issues" src="https://img.shields.io/github/issues/XEricDev/MXDDoS?color=purple&style=for-the-badge"></a>
 
 <p align="center">Please Don't Attack '.gov' and '.ir' Websites :)</p>
 
 <p align="center"><img src="https://i.imgur.com/aNrHJcA.png" width="1078" height="433" alt="POWER"></p>
-<p align="center"><img src="https://i.imgur.com/4Q7v2wn.png" width="1078" height="296" alt="SCRIPT"></p>
+<p align="center"><img src="https://cdn.discordapp.com/attachments/938175699326484490/949453546636582932/unknown.png" width="1078" height="296" alt="SCRIPT"></p>
 
 ## Features And Methods
 
