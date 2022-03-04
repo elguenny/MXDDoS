@@ -1,9 +1,14 @@
-<p align="center"><img src="./screenshot/logo.ico" width="150px" height="150px" alt="aventium softworks"></p>
+<p align="center"><img src="https://cdn.discordapp.com/attachments/938175699326484490/948263435412598864/unknown_2.png" width="400px" height="150px" alt="aventium softworks"></p>
 
 <h1 align="center">MXDDoS - DDoS Attack Script With 40 Methods</h1>
-
 <em><h5 align="center">(Code Lang - Python 3)</h5></em>
 
+<p align="center">
+<a href="#"><img alt="MXDDoS forks" src="https://img.shields.io/github/forks/XEricDev/MXDDoS?style=for-the-badge"></a>
+<a href="#"><img alt="MXDDoS last commit (main)" src="https://img.shields.io/github/last-commit/MHProDev/MHDDoS/main?color=green&style=for-the-badge"></a>
+<a href="#"><img alt="MXDDoS Repo stars" src="https://img.shields.io/github/stars/XEricDev/MXDDoS?style=for-the-badge&color=yellow"></a>
+<a href="#"><img alt="MXDDoS License" src="https://img.shields.io/github/license/XEricDev/MXDDoS?color=orange&style=for-the-badge"></a>
+<a href="https://github.com/XEricDev/MXDDoS/issues"><img alt="MHDDoS issues" src="https://img.shields.io/github/issues/XEricDev/MXDDoS?color=purple&style=for-the-badge"></a>
 
 <p align="center">Please Don't Attack '.gov' and '.ir' Websites :)</p>
 
@@ -13,6 +18,7 @@
 ## Features And Methods
 
  * 💣 Layer7
+
    * <img src="https://image.flaticon.com/icons/png/128/2431/2431664.png" width="16" height="16" alt="get"> GET | GET Flood
    * <img src="https://cdn0.iconfinder.com/data/icons/database-storage-5/60/server__database__fire__burn__safety-512.png" width="16" height="16" alt="post"> POST | POST Flood
    * <img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/OVH_Logo.svg/1200px-OVH_Logo.svg.png" width="16" height="16" alt="ovh"> OVH | Bypass OVH
@@ -24,7 +30,7 @@
    * <img src="https://i.pinimg.com/originals/03/2e/7d/032e7d0755cd511c753bcb6035d44f68.png" width="16" height="16" alt="cookie"> COOKIE | Random Cookie PHP 'if (isset($_COOKIE))'
    * <img src="https://image.flaticon.com/icons/png/512/2100/2100795.png" width="16" height="16" alt="pps"> PPS |  Only 'GET / HTTP/1.1\r\n\r\n'
    * <img src="https://cdn3.iconfinder.com/data/icons/internet-security-14/48/DDoS_website_webpage_bomb_virus_protection-512.png" width="16" height="16" alt="even"> EVEN | GET Method with more header
-   * <img src="https://masbadar.com/wp-content/uploads/2016/02/Logo-Projects-Shield-2.jpg" width="16" height="16" alt="googleshield"> GSB | Google Project Shield Bypass
+   * <img src="https://projectshield.withgoogle.com/static/icons/favicon.ico" width="16" height="16" alt="googleshield"> GSB | Google Project Shield Bypass
    * <img src="https://seeklogo.com/images/D/ddos-guard-logo-CFEFCA409C-seeklogo.com.png" width="16" height="16" alt="DDoSGuard"> DGB | DDoS Guard Bypass
    * <img src="https://i.imgur.com/bGL8qfw.png" width="16" height="16" alt="ArvanCloud"> AVB | Arvan Cloud Bypass
    * <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1024px-Google_%22G%22_Logo.svg.png" width="16" height="16" alt="Google bot"> BOT | Like Google bot
@@ -38,7 +44,7 @@
 * 🧨 Layer4: 
   * <img src="https://raw.githubusercontent.com/kgretzky/pwndrop/master/media/pwndrop-logo-512.png" width="16" height="16" alt="tcp"> TCP | TCP Flood Bypass
   * <img src="https://styles.redditmedia.com/t5_2rxmiq/styles/profileIcon_snoob94cdb09-c26c-4c24-bd0c-66238623cc22-headshot.png" width="16" height="16" alt="udp"> UDP | UDP Flood Bypass
-  * <img src="https://belgium.devoteam.com/wp-content/uploads/sites/23/2020/06/Icon-accelarate-hyper-automation-with-RPA-300x301.png" width="16" height="16" alt="syn"> SYN | SYN Flood
+  * <img src="https://cdn-icons-png.flaticon.com/512/1918/1918576.png" width="16" height="16" alt="syn"> SYN | SYN Flood
   * <img src="https://cdn.iconscout.com/icon/free/png-256/virus-2165355-1821015.png" width="16" height="16" alt="vse"> VSE | Send VSE Protocol
   * <img src="https://cdn.iconscout.com/icon/free/png-512/redis-4-1175103.png" width="16" height="16" alt="mem"> MEM | Memcached Amplification
   * <img src="https://lyrahosting.com/wp-content/uploads/2020/06/ddos-attack-icon.png" width="16" height="16" alt="ntp"> NTP | NTP Amplification
@@ -101,9 +107,15 @@ cd MXDDoS
 pip3 install -r requirements.txt
 ```
 
----
 
-**Launch Script**
+## Launch Script
+
+| Proxy Type        | Value    |
+| ----------------- | -------- |
+| All Proxy         | 0 |
+| HTTP              | 1 |
+| SOCKS4            | 4 |
+| SOCKS5            | 5 |
 
 * Layer7 (Website):
 ```console
@@ -116,6 +128,12 @@ python3 start.py udp 1.1.1.1:53 1 100
 python3 start.py dns 1.1.1.1:53 1 100 dns.txt
 ```
 
+* Debug Mode (L4/L7):
+```console
+python3 start.py bypass https://example.com 5 1000 socks5.txt 100 100 true
+python3 start.py udp 1.1.1.1:53 1 100 true
+```
+
 * Tools/Help:
 ```console
 python3 start.py tools
@@ -124,4 +142,3 @@ python3 start.py help
 
 [python3]: https://python.org 'Python3'
 [github]: https://github.com/XEricDev/MXDDoS/issues 'GitHub'
-
