@@ -1,4 +1,4 @@
-<p align="center"><img src="https://cdn.discordapp.com/attachments/938175699326484490/949459314635067412/Untitled-12.png" width="400px" height="450px" alt="aventium softworks"></p>
+<p align="center"><img src="https://cdn.discordapp.com/attachments/938175699326484490/949459314635067412/Untitled-12.png" width="400px" height="350px" alt="aventium softworks"></p>
 
 <h1 align="center">MXDDoS - DDoS Attack Script With 40 Methods</h1>
 <em><h5 align="center">(Code Lang - Python 3)</h5></em>
